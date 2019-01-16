@@ -27,9 +27,12 @@ INSERT INTO BookCategory(BookID, CategoryID) VALUES (2,2);
 INSERT INTO BookCategory(BookID, CategoryID) VALUES (3,1);
 INSERT INTO BookCategory(BookID, CategoryID) VALUES (4,1);
 INSERT INTO BookCategory(BookID, CategoryID) VALUES (5,3);
-INSERT INTO BookCategory(BookID, CategoryID) VALUES (6,1);
-INSERT INTO BookCategory(BookID, CategoryID) VALUES (7,1);
+INSERT INTO BookCategory(BookID, CategoryID) VALUES (6,3);
+INSERT INTO BookCategory(BookID, CategoryID) VALUES (7,3);
 INSERT INTO BookCategory(BookID, CategoryID) VALUES (8,4);
+INSERT INTO BookCategory(BookID, CategoryID) VALUES (9,1);
+INSERT INTO BookCategory(BookID, CategoryID) VALUES (10,5);
+INSERT INTO BookCategory(BookID, CategoryID) VALUES (11,5);
 
 --select * from BookCategory;
 
@@ -90,7 +93,7 @@ INSERT INTO Request(MemberID,BookID,DateRequested) VALUES (1,9,'2017-10-13');
 
 --select * from Request;
 
-INSERT INTO LibraryNomenclator(NameOfLibrary,AddressID) VALUES ('Biblioteca Centrala Universitara',1);
+INSERT INTO LibraryNomenclator(NameOfLibrary,AddressID) VALUES ('Biblioteca Centrala Mihai Eminescu',1);
 INSERT INTO LibraryNomenclator(NameOfLibrary,AddressID) VALUES ('Biblioteca Gheorghe Asachi',2);
 INSERT INTO LibraryNomenclator(NameOfLibrary,AddressID) VALUES ('Biblioteca Centrala Universitara',3);
 
